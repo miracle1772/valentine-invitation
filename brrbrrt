@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> <!-- Lobster font -->
+    <style>
+        body {
+            background-color: #fce8e6; /* Soft pink background */
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .invitation-container {
+            background-color: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            width: 50%;
+            margin: 0 auto;
+            position: relative;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ff4d94; /* Bright pink */
+            font-family: 'Lobster', cursive; /* Lobster font */
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .heart {
+            color: #ff3366;
+            font-size: 3em;
+            margin: 20px;
+        }
+
+        .btn {
+            background-color: #ff4d94;
+            color: white;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 10px;
+            margin-top: 30px;
+            display: inline-block;
+            transition: background-color 0.3s;
+            margin: 10px;
+        }
+
+        .btn:hover {
+            background-color: #ff1a75;
+        }
+
+        .heart-container {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 3em;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .small-invitation {
+            font-size: 1.2em;
+            color: #ff3366;
+            margin-top: 20px;
+        }
+
+        .small-invitation span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="invitation-container">
+        <div class="heart-container">💖</div>
+        <h1>Leave V-Day Alone. I Want to Make <br> U + Me Day!</h1>
+        <div class="heart">💝</div>
+        <div class="small-invitation">
+            Are you free on the night of <span>February 14th</span>? 
+        </div>
+        <div class="button-container">
+            <a href="https://your-link.com/rsvp" class="btn" target="_blank">Yesss! 💌</a>
+            <a href="https://your-link.com/rsvp" class="btn" target="_blank">Let's go! 💕</a>
+        </div>
+    </div>
+</body>
+</html>
